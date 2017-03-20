@@ -983,7 +983,7 @@
 
         <activity android:name="Settings$crDroidSettingsLayoutActivity"
                 android:label="@string/crdroid_settings_title"
-                android:icon="@drawable/ic_settings_crdroid"
+                android:icon="@drawable/ic_settings_aosgp"
                 android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

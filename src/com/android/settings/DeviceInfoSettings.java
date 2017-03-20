@@ -157,8 +157,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_VERSION, "ro.crdroid.display.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
-        setStringSummary(KEY_DEVICE_MEMORY, getDeviceMemoryInfo());
-        setStringSummary(KEY_DEVICE_PROCESSOR, getDeviceProcessorInfo());
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);

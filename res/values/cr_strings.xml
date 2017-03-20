@@ -16,14 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
-    <string name="processor_info">Processor</string>
-    <!-- RAM: Memory Info -->
-    <string name="mem_info">RAM</string>
-
     <!-- crDroid Settings -->
-    <string name="crdroid_settings_title">crDroid Settings</string>
-    <string name="header_category_crdroid">crDroid</string>
+    <string name="crdroid_settings_title">AOSGP Settings</string>
+    <string name="header_category_crdroid">AOSGP</string>
 
     <!-- Quick unlock -->
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
@@ -31,4 +26,8 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+
+    <!-- OTA strings -->
+    <string name="updater_title">Updates</string>
+    <string name="rr_updater_summary">Check for OTA updates and other links</string>
 </resources>
