@@ -1876,15 +1876,6 @@
             android:theme="@style/SetupWizardTheme.Light"
             android:windowSoftInputMode="stateVisible|adjustResize"/>
 
-        <activity android:name="ChooseEncryptionPassword"
-            android:exported="false"
-            android:theme="@style/SetupWizardTheme.Light"
-            android:windowSoftInputMode="stateVisible|adjustResize"/>
-
-        <activity android:name="ReplaceEncryptionPassword"
-            android:exported="false"
-            android:theme="@style/SetupWizardTheme.Light"/>
-
         <activity android:name=".SetupEncryptionInterstitial"
             android:label="@string/encryption_interstitial_header"
             android:taskAffinity="com.android.wizard"
@@ -3100,6 +3091,13 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.crdroid.settings.fragments.OmniJawsSettings" />
+        </activity>
+
+        <activity android:name="com.crdroid.settings.fragments.ChangelogActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
 
         <provider

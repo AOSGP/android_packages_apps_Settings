@@ -303,6 +303,18 @@
   <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
   <string name="increasing_ring_ramp_up_time_title">Wydłużenie odstępu</string>
   <!-- Allow vibration in zen mode -->
+  <!-- Zen mode allowed event setting summary items -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_reminders, but part of a list, so lower case if needed-->
+  <string name="zen_mode_summary_reminders">przypomnienia</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_events, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_events">zdarzenia</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_callers">wybrani rozmówcy</string>
+  <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
+  <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
+  <string name="zen_mode_summary_selected_messages">wybrane wiadomości</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
   <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
@@ -338,7 +350,6 @@
   <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
   <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania od źródła zasilania</string>
   <!-- Heads-up -->
-  <!-- Encryption password -->
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Inny</string>
   <!-- Wi-Fi tethering inactivity timeout -->
@@ -350,6 +361,7 @@
   <string name="hotstpot_inactivity_timeout_never_summary_text">Przenośny hotspot Wi\u2011Fi nie przejdzie w stan bezczynności</string>
   <string name="hotstpot_inactivity_timeout_summary_text">Przenośny hotspot Wi\u2011Fi przejdzie w stan bezczynności po <xliff:g id="timeout">%1$s</xliff:g></string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Komórkowa transmisja danych</string>
   <string name="data_usage_app_restrict_wifi_category_title">Dostęp do danych przez Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
