@@ -155,7 +155,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_MOD_VERSION, "ro.crdroid.display.version");
+        setValueSummary(KEY_MOD_VERSION, "ro.aosgp.display.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
