@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 Project dotOS
+ * Copyright (C) 2018 AOSGP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -50,6 +50,15 @@ public class OSInformationsPreferenceController extends AbstractPreferenceContro
     @Override
     public boolean isAvailable() {
         return true;
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        final Preference pref = screen.findPreference(KEY_OS_INFO);
+        if (pref != null) {
+            pref.setSummary(Build.VERSION.RELEASE);
+        }
     }
 
     @Override

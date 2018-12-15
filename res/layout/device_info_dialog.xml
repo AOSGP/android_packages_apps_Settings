@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="dotOS"
+        android:text="@string/device_rom_name"
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="22sp"
         android:textStyle="bold" />
@@ -90,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="dotOS Version"
+            android:text="@string/device_rom_version"
             android:textSize="16sp" />
 
         <TextView
